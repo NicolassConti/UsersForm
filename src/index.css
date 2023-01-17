@@ -1,0 +1,107 @@
+:root {
+  color: rgba(0, 0, 0, 0.87);
+  background-image: url(https://img.freepik.com/foto-gratis/fondo-3d-globo-codigo-programacion_1048-5911.jpg?w=2000);
+  
+ 
+}
+* {
+  margin: 0;
+  padding: 0;
+  font-family: 'Comic Sans MS';
+  box-sizing: border-box;
+}
+
+.App {
+  padding: 30px;
+  display: grid; 
+}
+
+  form {
+  margin-bottom: 20px;
+  margin-left: 450px;
+  width: 20%;
+  padding: 20px;
+  border-radius: 10px;
+  margin-right: 40px;
+  box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.4);
+  background: rgba(255, 255, 255, .6);
+  
+}
+
+.input-container {
+  margin-bottom: 10px;
+}
+
+.input-container input {
+  display: block;
+  padding: 8px 10px;
+  margin-top: 5px;
+  width: 100%;
+  border-radius: 5px;
+}
+
+.input-container input[type="checkbox"] {
+  display: inline;
+  width: auto;
+}
+
+button {
+  padding: 10px 15px;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+button:hover{
+  transform: scale(1.2);
+  transition: 0.3s;
+}
+
+form button {
+  background: greenyellow
+}
+
+.users-list {
+  width: 100%;
+  box-sizing: border-box;
+  padding: 20px;
+  box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.4);
+  background: rgba(255, 255, 255, .6);
+  border-radius: 10px;
+
+}
+
+.users-list ul {
+  list-style: none;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  
+}
+
+.users-list ul li {
+  box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.5);
+  padding: 20px;
+  margin-bottom: 20px;
+  border-radius: 10px;
+}
+
+.users-list ul li h4 {
+  margin: 0 0 10px 0;
+  font-size: 20px;
+  
+}
+
+.users-list button{
+  margin-top: 2rem;
+  border-radius: 10px;
+  margin: 10px;
+}
+
+.delete{
+  background-color: rgb(235, 80, 80);
+}
+
+.select{
+  background-color: greenyellow;
+}
